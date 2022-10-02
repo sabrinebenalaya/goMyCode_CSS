@@ -1,0 +1,195 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0%;
+    margin: 1%;
+    height: 100%;
+}
+
+h1{
+    color: blue;
+    size: 3em;
+    margin-left: 5px;
+    text-transform: uppercase;
+} 
+
+#about, #resume, #work{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+/*header */
+header, main, footer{
+    padding: 0%;
+    margin-bottom: 1%;
+}
+
+nav{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+}
+nav div{
+    padding: 0;
+}
+nav div img {
+    border-radius: 50%;
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+nav ul{
+    margin-left: 20%;
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    margin-left: 50px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: black;
+    font-style: italic; 
+}
+
+
+/* main>about */
+i{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.about div p a:visited{
+    color: blue;
+}
+
+.about div img{
+    margin-left: 40%;
+    width: 300px;
+    height: 250px;
+    border-radius: 20%;
+    box-shadow: 0 0 25px black;
+
+}
+.about {
+    display: flex;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    size: 10px;
+    color: black;
+}
+a:hover{
+    color:blue;
+    text-decoration: underline;
+    text-transform: inherit;
+}
+/*main >resume */
+.resume{
+    display: flex; 
+    margin-bottom: 2%; 
+}
+
+
+.section{
+margin-right: 2%;
+    margin-top: 2%;
+}
+.section div{
+    background-color: blue;
+    border-radius: 30px;
+    box-shadow: 0 0 25px black;
+    padding: 2%;
+}
+
+.section ul, .section li{ 
+    margin-left:5px;
+    margin-right: 5px;
+    padding-left:0px;
+    list-style: none;
+    display: block;
+}
+
+/* main> work */
+
+.work{
+    display: flex;
+    justify-content: center;
+}
+
+.right{
+    width: 50%;
+}
+.left{
+    width: 50%;
+    margin-right: 10%;
+ }
+iframe{
+    width :100%;
+    height: 300px;
+}
+
+fieldset {
+    width: 50%;
+    margin: 10% auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+fieldset legend{
+    color: blue;
+}
+fieldset button{
+    background-color: blue;
+    color: white;
+}
+
+/* footer */
+footer{
+    height: 40;
+    width: 100%;
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#contact{
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 20px;
+}
+#contact h1{
+    text-align: center;
+    padding-top: 5px;
+    color: blue;
+}
+
+form{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    border-radius: 30px;
+    width: 80%;
+    box-shadow: 0 0 25px black;
+}
+
+.formulaire{
+    text-align: center; 
+    padding: 15px;
+}
+.formulaire input, button,textarea{
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: white;
+    text-align: center;
+}
+
+.formulaire button{   
+    color: blue;
+}
