@@ -30,7 +30,7 @@ nav{
 nav div{
     padding: 0;
 }
-nav div img {
+nav img {
     border-radius: 50%;
     width: 70px;
     margin-left: 10px;
@@ -41,16 +41,16 @@ nav ul{
     list-style-type: none;
 }
 
-li{
+nav li{
     display: inline;
     margin-left: 50px;
 }
 
-nav ul li a{
+nav  a{
     color: white;
     font-weight: bold;
 }
-nav ul li a:hover{
+nav a:hover{
     color: black;
     font-style: italic; 
 }
@@ -113,6 +113,10 @@ margin-right: 2%;
     display: block;
 }
 
+.section li:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
 /* main> work */
 
 .work{
